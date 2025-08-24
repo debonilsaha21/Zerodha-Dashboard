@@ -22,7 +22,7 @@ function Watchlist() {
                     placeholder="Search eg:infy, bse, nifty fut weekly, gold mcx"
                     className="search"
                 />
-                <span className="counts" style={{ color: "gray" }}>{watchlist.length}/50</span>
+                <span className="counts" style={{ color: "gray" }}>&nbsp;{watchlist.length}/50</span>
             </div>
             <ul className='list'>
                 {watchlist.map((stock, index) => (
