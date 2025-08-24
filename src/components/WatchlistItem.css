@@ -1,0 +1,79 @@
+.watchlistItem {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 2px;
+}
+
+.stockName {
+    width: 50%;
+}
+
+.dayChangePercent {
+    width: 25%;
+    text-align: right;
+}
+
+.stockValue {
+    width: 25%;
+    text-align: right;
+}
+
+.up {
+    color: green;
+}
+
+.down {
+    color: red;
+}
+
+.watchlistItem {
+    position: relative;
+    padding: 8px;
+}
+
+.watchlistItemActions {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    z-index: 10;
+}
+
+.buyButton {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.sellButton {
+    background: red;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.deleteButton {
+    border: 1px solid gray;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.chartButton {
+    border: 1px solid gray;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}

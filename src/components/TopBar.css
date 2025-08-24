@@ -1,0 +1,170 @@
+.topbar {
+
+    margin-left: 3px;
+    margin-right: 3px;
+    display: flex;
+    flex-direction: row;
+}
+
+.indices {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 30%;
+    padding: 5px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+
+.nifty {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.index1-name {
+    font-size: large;
+}
+
+.index1-value {
+    font-size: smaller;
+    align-items: baseline;
+    color: green;
+    padding-bottom: 2px;
+}
+
+.sensex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.index2-name {
+    font-size: large;
+}
+
+.index2-value {
+    font-size: smaller;
+    align-items: baseline;
+    color: green;
+}
+
+/*--------------------------------------------------------------------*/
+.panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border: 1px solid black;
+    width: 70%;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-color: whitesmoke;
+    margin-left: 5px;
+}
+
+.home-logo {
+    height: 30px;
+    width: 30px;
+    min-width: 30px;
+    cursor: pointer;
+}
+
+.panel-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.panel-items div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover {
+    color: #F47320;
+}
+
+.linksActive {
+    color: #F47320;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-left: 2px solid gray;
+    padding-left: 10px;
+}
+
+.user-code {
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #F47320;
+}
+
+.userButton {
+    border-radius: 10px;
+}
+
+.userDropDown {
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    top: 10vh;
+    right: 5vw;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.userDropDown div {
+    padding: 0.25rem 0 0.25rem 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    font-size: 0.9rem;
+    border-radius: 10px;
+}
+
+.userDropDown div:hover {
+    background-color: whitesmoke;
+}
+
+.userInformation {
+    border-bottom: 1px solid gray;
+}
+
+.userInformation p {
+    text-align: left;
+    font-size: small;
+    font-style: italic;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+
+}

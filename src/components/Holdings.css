@@ -1,0 +1,86 @@
+.holdingsMain {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    margin-right: 3px;
+    margin-left: 5px;
+    height: 88vh;
+    margin-top: 8px;
+    padding: 60px 40px 60px 60px;
+}
+
+/*holdings calculation css*/
+
+.holdingsCalculation {
+    border-top: 1px solid #ddd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.investment {
+
+    box-shadow: none;
+    text-align: center;
+}
+
+.currentValue {
+    text-align: center;
+    border-left: none;
+}
+
+.totalPnl {
+    text-align: center;
+}
+
+/* holdings table css*/
+.holdings-table {
+    width: 100%;
+
+    overflow-x: auto;
+    /* For responsiveness */
+}
+
+.holdings-table table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Removes gaps between borders */
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    /* Numbers aligned to the right */
+    table-layout: fixed;
+
+    overflow: hidden;
+
+}
+
+.holdings-table th {
+
+    color: #333;
+    font-weight: 300;
+    text-align: left;
+    padding: 12px;
+    padding-right: 0;
+    padding-left: 0;
+    border-bottom: 2px solid #ddd;
+    border-top: 2px solid #ddd;
+}
+
+td {
+    font-weight: 400;
+    padding: 5px;
+}
+
+.profit {
+    color: green
+}
+
+.loss {
+    color: red
+}

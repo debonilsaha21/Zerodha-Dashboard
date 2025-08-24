@@ -1,0 +1,12 @@
+.apps {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    margin-right: 3px;
+    margin-left: 5px;
+    height: 88vh;
+    margin-top: 8px;
+    padding: 60px 60px 60px 60px;
+}
